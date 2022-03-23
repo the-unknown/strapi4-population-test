@@ -4,5 +4,11 @@ cms-install:
 cms-fix:
 	make stop && sudo rm -rf apps/strapi/node_modules && make up
 
+cms-clean:
+	${DC} ${COMPOSE_FILES} exec -T strapi /bin/sh -c "cd /app/strapi && rm -rf ./node_modules"
+
+cms-build:
+	${DC} ${COMPOSE_FILES} exec -T strapi /bin/sh -c "cd /app/strapi && yarn install && yarn build"
+
 cms-reinit:
-	${DC} ${COMPOSE_FILES} exec -T strapi /bin/sh -c "cd /app/strapi && rm -rf ./node_modules && yarn install && yarn build" && make up
+	make clean build up
