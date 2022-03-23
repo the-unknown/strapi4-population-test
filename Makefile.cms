@@ -11,4 +11,4 @@ cms-build:
 	${DC} ${COMPOSE_FILES} exec -T strapi /bin/sh -c "cd /app/strapi && yarn install && yarn build"
 
 cms-reinit:
-	make clean build up
+	make cms-clean cms-build up
