@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_basic_headlines",
+  "info": {
+    "displayName": "Headline",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6"
+      ]
+    },
+    "cssClass": {
+      "type": "string"
+    }
+  }
+}

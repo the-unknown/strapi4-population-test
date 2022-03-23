@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_teaser_multi_teasers",
+  "info": {
+    "displayName": "Multi Teaser",
+    "icon": "clone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "teaser": {
+      "type": "component",
+      "repeatable": true,
+      "component": "teaser.singel-teaser"
+    },
+    "cssClass": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+apps/react/node_modules
+apps/react/dist
+apps/mariadb
+
+.env.local

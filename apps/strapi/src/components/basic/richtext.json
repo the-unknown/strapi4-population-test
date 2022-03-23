@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_basic_richtexts",
+  "info": {
+    "displayName": "Richtext",
+    "icon": "file-invoice"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "cssClass": {
+      "type": "string"
+    }
+  }
+}

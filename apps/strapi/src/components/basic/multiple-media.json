@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_basic_multiple_medias",
+  "info": {
+    "displayName": "Multiple Media",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "cssClass": {
+      "type": "string"
+    }
+  }
+}

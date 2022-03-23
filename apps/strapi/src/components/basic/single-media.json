@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_basic_single_medias",
+  "info": {
+    "displayName": "Single Media",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cssClass": {
+      "type": "string"
+    }
+  }
+}

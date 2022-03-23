@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_teaser_page_teaser_singels",
+  "info": {
+    "displayName": "Page Teaser Singel",
+    "icon": "pager"
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "cssClass": {
+      "type": "string"
+    }
+  }
+}

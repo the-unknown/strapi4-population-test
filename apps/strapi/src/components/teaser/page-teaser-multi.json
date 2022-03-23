@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_teaser_page_teaser_multis",
+  "info": {
+    "displayName": "Page Teaser Multi",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "pageTeaser": {
+      "type": "component",
+      "repeatable": true,
+      "component": "teaser.page-teaser-singel"
+    },
+    "cssClass": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_teaser_singel_teasers",
+  "info": {
+    "displayName": "Singel Teaser",
+    "icon": "square",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": false
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link": {
+      "type": "string",
+      "required": false
+    },
+    "cssClass": {
+      "type": "string"
+    }
+  }
+}
